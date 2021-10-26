@@ -4,7 +4,6 @@ import asyncio
 import datetime
 import numpy as np
 import transformers
-from gtts import gTTS
 from sample_config import Config
 from pyrogram import Client, filters
 
