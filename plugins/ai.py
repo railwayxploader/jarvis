@@ -12,7 +12,7 @@ class ChatBot():
         print("----- Starting up", name, "-----")
         self.name = name
 
-@pyrogram.Client.on_message(filters.private)
+@Client.on_message(filters.private)
 async def ai(bot, update):
   ai = ChatBot(name="dev")
   nlp = transformers.pipeline("conversational", model="microsoft/DialoGPT-medium")
