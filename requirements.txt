@@ -2,3 +2,4 @@ pyrogram
 tgcrypto
 transformers
 tensorflow
+cloud-tpu-client
